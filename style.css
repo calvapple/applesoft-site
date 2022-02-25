@@ -1,0 +1,20 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+body{
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .top, .footer{
+    background-color: #1f2937;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
